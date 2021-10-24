@@ -58,6 +58,7 @@ a:active {
 }
 
 #work-button {
+  background-color: var(--fifth-color);
   display: flex;
   flex-direction: row;
   justify-content: center;
