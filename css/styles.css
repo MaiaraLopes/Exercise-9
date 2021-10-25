@@ -127,6 +127,7 @@ main {
   padding: 25px;
   border: 10px ridge var(--second-color);
   border-radius: 30px;
+  margin: 30px;
   margin-bottom: 50px;
 }
 
@@ -206,17 +207,11 @@ p {
     padding: 40px;
     margin-bottom: 20px;
   }
-  main {
-    margin: 30px;
-  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
-  }
-  main {
-    margin: 30px;
   }
 }
 
@@ -230,9 +225,6 @@ p {
   }
   h1 {
     font-size: 22px;
-  }
-  main {
-    margin: 30px;
   }
 }
 
