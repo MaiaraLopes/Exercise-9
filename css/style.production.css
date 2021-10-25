@@ -153,7 +153,6 @@ main {
   padding: 25px;
   border: 10px ridge #4654a3;
   border-radius: 30px;
-  margin: 30px;
   margin-bottom: 50px;
 }
 
@@ -206,6 +205,33 @@ p {
 
 .work-image {
   width: 100%;
+}
+
+.brasilia-illustration {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+form * {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#contact-message {
+  height: 100px;
+}
+
+.credit {
+  font-size: 12px;
+  color: #4654a3;
+  margin: 30px;
 }
 
 @supports (display: grid) {
@@ -266,31 +292,10 @@ p {
   }
 }
 
-.brasilia-illustration {
-  width: 120px;
-  height: 120px;
-  display: block;
-  margin: 0 auto;
-}
-
-form {
-  width: 60%;
-  margin: 0 auto;
-}
-
-form * {
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-#contact-message {
-  height: 100px;
-}
-
-.credit {
-  font-size: 12px;
-  color: #4654a3;
-  margin: 30px;
+@media all and (max-width: 940px) {
+  main {
+    margin: 30px;
+  }
 }
 
 /*
