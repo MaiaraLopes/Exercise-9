@@ -57,14 +57,6 @@ a:active {
   text-align: center;
 }
 
-#work-button {
-  background-color: var(--fifth-color);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 button,
 .button {
   border: none;
@@ -78,6 +70,14 @@ button,
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s opacity;
+}
+
+.work-button {
+  background-color: var(--fifth-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover,
