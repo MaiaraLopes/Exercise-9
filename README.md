@@ -1,6 +1,6 @@
 
 # My portfolio
-This is a simple [portfolio](https://xenodochial-wiles-15c68b.netlify.app/) to showcase my work.
+This is a simple [portfolio](https://maiaralopes-portfolio.netlify.app) to showcase my work.
 
 
 ## Built with
