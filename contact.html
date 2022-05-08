@@ -1,74 +1,102 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Maiara Lopes - Portfolio</title>
-    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.production.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<body>
+  <body>
     <header class="page-header">
-        <div class="page-header__item">
-            <img src="img/ml_logo.png" class="personal-logo" alt="Personal logo">
-        </div>
-        <nav class="main-navigation page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
-                </li>
-                <li role="presentation">
-                    <a href="contact.html" role="menuitem"
-                        class="navigation-list__item navigation-list__item--active">Contact</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem" class="navigation-list__item">My work</a>
-                </li>
-            </ul>
-        </nav>
+      <div class="page-header__item">
+        <img src="img/ml_logo.png" class="personal-logo" alt="Personal logo" />
+      </div>
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About me</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="contact.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Contact</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >My work</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Contact me</h1>
-        <div>
-            Bracknell, Berkshire, UK<br>
-            <a href="tel:+447507624476">Tel:</a><span> +447507624476</span><br>
-            <a href="skype:lopes.mai">Skype:</a><span> Lopes.Mai</span><br>
-            <a href="mailto:maiglopes@gmail.com">Email:</a><span> maiglopes@gmail.com</span><br>
-        </div>
-        <br/>
-        <form action="#" method="post" id="contact-form">
-            <label class="standard-label" for="contact-email">Email: </label>
-            <input type="email" id="contact-email" required>
+      <h1>Contact me</h1>
+      <div>
+        Bracknell, Berkshire, UK<br />
+        <a href="tel:+447507624476">Tel:</a><span> +447507624476</span><br />
+        <a href="skype:lopes.mai">Skype:</a><span> Lopes.Mai</span><br />
+        <a href="mailto:maiglopes@gmail.com" id="email">Email:</a
+        ><span> maiglopes@gmail.com</span><br />
+      </div>
+      <br />
+      <form action="#" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">Email: </label>
+        <input type="email" id="contact-email" required />
 
-            <label class="standard-label" for="contact-phone">Telephone: </label>
-            <input type="tel" minlength="10" id="contact-phone">
+        <label class="standard-label" for="contact-phone">Telephone: </label>
+        <input type="tel" minlength="10" id="contact-phone" />
 
-            <label class="standard-label" for="contact-message">Message: </label>
-            <textarea maxlength="240" id="contact-message" required></textarea>
+        <label class="standard-label" for="contact-message">Message: </label>
+        <textarea maxlength="240" id="contact-message" required>
+(Under construction)</textarea
+        >
 
-            <button type="submit">Send message</button>
-        </form>
+        <button type="submit">Send message</button>
+      </form>
     </main>
     <footer class="page-footer">
-        <p>Find me on</p>
-        <div class="social-media">
-            <a href="https://github.com/MaiaraLopes" target="_blank"><img src="./img/github.svg" class="footer-logos"
-                    alt="GitHub logo"></a>
-            <a href="https://www.linkedin.com/in/maiara-lopes-translation/" target="_blank"><img src="./img/linkedin.svg"
-                    class="footer-logos" alt="LinkedIn logo"></a>
-        </div>
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/MaiaraLopes" target="_blank"
+          ><img src="./img/github.svg" class="footer-logos" alt="GitHub logo"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/maiara-lopes-translation/"
+          target="_blank"
+          ><img
+            src="./img/linkedin.svg"
+            class="footer-logos"
+            alt="LinkedIn logo"
+        /></a>
+      </div>
     </footer>
     <script src="js/tota11y.min.js"></script>
-</body>
-
+  </body>
 </html>

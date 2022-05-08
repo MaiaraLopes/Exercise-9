@@ -88,6 +88,15 @@ button:focus,
   opacity: 0.8;
 }
 
+.description-button {
+  background-color: var(--fifth-color);
+  border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .navigation-list {
   list-style-type: none;
 }
@@ -202,6 +211,77 @@ form * {
   margin: 30px;
 }
 
+.modal-window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window>div {
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  background: var(--second-color);
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+  color: var(--third-color)
+}
+
+.modal-window p {
+  color: var(--third-color)
+}
+
+.modal-close {
+ font-weight: 900;
+  line-height: 50px;
+  font-size: 90%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.modal-close:hover {
+  color: var(--first-color);}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-window>div {
+  border-radius: 1rem;
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
 @supports (display: grid) {
   .grid {
     display: grid;
@@ -260,47 +340,3 @@ form * {
   }
 }
 
-/*
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
-
-.berlin-illustration {
-  width: 100%;
-}
-
-@keyframes color-change {
-  from {
-    fill: var(--early-sun);
-  }
-  to {
-    fill: var(--late-sun);
-  }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-*/
