@@ -22,6 +22,11 @@ body {
   line-height: 1.6;
 }
 
+section {
+  border: 2px solid var(--fourth-color);
+  border-radius: 5px;
+}
+
 h1 {
   font-size: var(--header-size);
   font-weight: 700;
@@ -33,6 +38,32 @@ h2 {
   font-size: 22px;
   font-weight: 600;
   line-height: 1.5;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 28px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.card-img-top {
+  padding: 20px;
+}
+
+.modal-content {
+background-color: var(--second-color);
+color: var(--third-color)
+}
+
+.modal-title {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 a {
@@ -57,13 +88,11 @@ a:active {
   text-align: center;
 }
 
-button,
+
 .button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--sixth-color);
-  color: var(--first-color);
   margin-top: 30px;
   text-decoration: none;
   padding: 10px;
@@ -72,12 +101,26 @@ button,
   transition: 0.2s opacity;
 }
 
+.close {
+  border-radius: 25px;
+  font-weight: bold;
+  background-color: var(--fourth-color);
+  color: var(--third-color)
+}
+
+.close:hover {
+  background-color: var(--first-color);
+}
+
 .work-button {
-  background-color: var(--fifth-color);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  font-weight: 600;
+  background-color: var(--third-color);
+  border-radius: 20px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 200px;
 }
 
 button:hover,
@@ -89,12 +132,14 @@ button:focus,
 }
 
 .description-button {
-  background-color: var(--fifth-color);
+  font-weight: 600;
+  background-color: var(--third-color);
   border-radius: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 200px;
 }
 
 .navigation-list {
