@@ -91,10 +91,10 @@ button:focus,
 .description-button {
   background-color: var(--fifth-color);
   border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation-list {
@@ -230,7 +230,7 @@ form * {
   pointer-events: auto;
 }
 
-.modal-window>div {
+.modal-window > div {
   width: 350px;
   position: absolute;
   top: 50%;
@@ -247,15 +247,15 @@ form * {
 .modal-window h1 {
   font-size: 150%;
   margin: 0 0 15px;
-  color: var(--third-color)
+  color: var(--third-color);
 }
 
 .modal-window p {
-  color: var(--third-color)
+  color: var(--third-color);
 }
 
 .modal-close {
- font-weight: 900;
+  font-weight: 900;
   line-height: 50px;
   font-size: 90%;
   position: absolute;
@@ -266,7 +266,8 @@ form * {
   text-decoration: none;
 }
 .modal-close:hover {
-  color: var(--first-color);}
+  color: var(--first-color);
+}
 
 .container {
   display: grid;
@@ -274,7 +275,7 @@ form * {
   align-items: center;
 }
 
-.modal-window>div {
+.modal-window > div {
   border-radius: 1rem;
 }
 
@@ -339,4 +340,3 @@ form * {
     margin: 30px;
   }
 }
-
